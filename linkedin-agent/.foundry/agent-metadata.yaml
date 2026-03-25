@@ -1,0 +1,9 @@
+defaultEnvironment: local
+
+environments:
+  local:
+    projectEndpoint: https://markkromer-linkedin-resource.services.ai.azure.com/api/projects/markkromer-linkedin
+    modelDeploymentName: gpt-4o
+    agentName: linkedin-post-agent
+
+agentRoot: .

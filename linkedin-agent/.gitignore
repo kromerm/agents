@@ -1,0 +1,23 @@
+# Secrets — never commit
+.env
+
+# Debug/temp scripts
+debug_linkedin.py
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# VS Code
+.vscode/settings.json
+
+# Foundry local state
+.foundry/datasets/
+.foundry/evaluators/
+.foundry/results/

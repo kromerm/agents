@@ -1,0 +1,23 @@
+# Azure AI Agent Framework
+agent-framework-azure-ai==1.0.0rc3
+agent-framework-core==1.0.0rc3
+
+# Foundry agent hosting adapter
+azure-ai-agentserver-agentframework==1.0.0b16
+azure-ai-agentserver-core==1.0.0b16
+
+# Azure identity & core
+azure-identity>=1.17.0
+azure-core>=1.30.0
+
+# LinkedIn API & OAuth
+requests>=2.32.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# VS Code Python debugger support
+debugpy>=1.8.0
+
+# OpenTelemetry tracing (AI Toolkit trace viewer)
+opentelemetry-exporter-otlp-proto-grpc>=1.25.0
